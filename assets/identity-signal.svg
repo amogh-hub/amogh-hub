@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+  <title id="title">Amogh R Balakrishna — engineering focus</title>
+  <desc id="desc">An animated signal cycles through trustworthy AI systems, geospatial intelligence, privacy engineering and proof-first products.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020817"/>
+      <stop offset="0.52" stop-color="#07162f"/>
+      <stop offset="1" stop-color="#02111d"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#60a5fa" stroke-opacity="0.065"/>
+    </pattern>
+  </defs>
+  <style>
+    .phrase { opacity: 0; animation: phrase 16s ease-in-out infinite; }
+    .p2 { animation-delay: 4s; }
+    .p3 { animation-delay: 8s; }
+    .p4 { animation-delay: 12s; }
+    .scan { animation: scan 5s linear infinite; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; }
+    @keyframes phrase {
+      0%, 20% { opacity: 1; transform: translateY(0); }
+      24%, 96% { opacity: 0; transform: translateY(-8px); }
+      97% { opacity: 0; transform: translateY(8px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes scan { from { transform: translateX(-520px); } to { transform: translateX(1720px); } }
+    @keyframes pulse { 0%,100% { opacity:.45; transform:scale(.84); } 50% { opacity:1; transform:scale(1.12); } }
+    @media (prefers-reduced-motion: reduce) {
+      .phrase,.scan,.pulse { animation: none; }
+      .phrase { opacity: 0; }
+      .p1 { opacity: 1; }
+    }
+  </style>
+  <rect width="1200" height="150" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="148" rx="19" fill="none" stroke="#2563eb" stroke-opacity=".45"/>
+  <rect width="1200" height="150" rx="20" fill="url(#grid)"/>
+  <path d="M0 120C125 95 205 137 338 110S575 89 700 112s220 5 300-12 126 7 200-8" fill="none" stroke="#0ea5e9" stroke-opacity=".22" stroke-width="2"/>
+  <rect class="scan" x="0" y="0" width="260" height="150" fill="url(#beam)" opacity=".18"/>
+  <g filter="url(#glow)">
+    <circle class="pulse" cx="55" cy="75" r="6" fill="#38bdf8"/>
+    <circle class="pulse" cx="1145" cy="75" r="6" fill="#2dd4bf" style="animation-delay:1.2s"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g class="phrase p1">
+      <text x="600" y="70" fill="#f8fafc" font-size="30" font-weight="700" letter-spacing="2">TRUSTWORTHY AI SYSTEMS</text>
+      <text x="600" y="101" fill="#7dd3fc" font-size="15" letter-spacing="4">BUILT BEYOND THE DEMO</text>
+    </g>
+    <g class="phrase p2">
+      <text x="600" y="70" fill="#f8fafc" font-size="30" font-weight="700" letter-spacing="2">GEOSPATIAL INTELLIGENCE</text>
+      <text x="600" y="101" fill="#7dd3fc" font-size="15" letter-spacing="4">FROM RGB TO ANALYTICAL TERRAIN</text>
+    </g>
+    <g class="phrase p3">
+      <text x="600" y="70" fill="#f8fafc" font-size="30" font-weight="700" letter-spacing="2">PRIVACY BY CONSTRUCTION</text>
+      <text x="600" y="101" fill="#5eead4" font-size="15" letter-spacing="4">RELATIONSHIPS · RED TEAMING · PROOF</text>
+    </g>
+    <g class="phrase p4">
+      <text x="600" y="70" fill="#f8fafc" font-size="30" font-weight="700" letter-spacing="2">SOFTWARE WITH EVIDENCE</text>
+      <text x="600" y="101" fill="#a5b4fc" font-size="15" letter-spacing="4">REQUIREMENTS → VERIFY → SHIP</text>
+    </g>
+  </g>
+</svg>

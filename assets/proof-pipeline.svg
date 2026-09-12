@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-labelledby="title desc">
+  <title id="title">Proof-first delivery pipeline</title>
+  <desc id="desc">An animated signal travels from an ambitious idea through requirements, architecture, build and verification to an honest release.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020817"/><stop offset="1" stop-color="#07182d"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .rail { stroke-dasharray:10 10; animation:dash 8s linear infinite; }
+    .node { animation:node 6s ease-in-out infinite; }
+    .d2{animation-delay:1s}.d3{animation-delay:2s}.d4{animation-delay:3s}.d5{animation-delay:4s}.d6{animation-delay:5s}
+    @keyframes dash { to { stroke-dashoffset:-200; } }
+    @keyframes node { 0%,75%,100% { opacity:.58; } 8%,22% { opacity:1; filter:url(#glow); } }
+    @media (prefers-reduced-motion: reduce) { .rail,.node { animation:none; opacity:1; } }
+  </style>
+  <rect width="1200" height="170" rx="20" fill="url(#bg)"/>
+  <path class="rail" d="M105 80H1095" fill="none" stroke="#38bdf8" stroke-width="3" opacity=".5"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g class="node d1"><circle cx="105" cy="80" r="18" fill="#0f2b51" stroke="#60a5fa" stroke-width="2"/><text x="105" y="130" fill="#cbd5e1" font-size="14" font-weight="700">IDEA</text></g>
+    <g class="node d2"><circle cx="303" cy="80" r="18" fill="#0f2b51" stroke="#60a5fa" stroke-width="2"/><text x="303" y="130" fill="#cbd5e1" font-size="14" font-weight="700">REQUIREMENTS</text></g>
+    <g class="node d3"><circle cx="501" cy="80" r="18" fill="#0f2b51" stroke="#38bdf8" stroke-width="2"/><text x="501" y="130" fill="#cbd5e1" font-size="14" font-weight="700">ARCHITECTURE</text></g>
+    <g class="node d4"><circle cx="699" cy="80" r="18" fill="#0f2b51" stroke="#2dd4bf" stroke-width="2"/><text x="699" y="130" fill="#cbd5e1" font-size="14" font-weight="700">BUILD</text></g>
+    <g class="node d5"><circle cx="897" cy="80" r="18" fill="#0f2b51" stroke="#2dd4bf" stroke-width="2"/><text x="897" y="130" fill="#cbd5e1" font-size="14" font-weight="700">VERIFY</text></g>
+    <g class="node d6"><circle cx="1095" cy="80" r="18" fill="#123124" stroke="#4ade80" stroke-width="2"/><path d="m1087 80 6 6 11-14" fill="none" stroke="#86efac" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="1095" y="130" fill="#86efac" font-size="14" font-weight="700">HONEST RELEASE</text></g>
+  </g>
+</svg>

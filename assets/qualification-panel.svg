@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Public qualification evidence</title>
+  <desc id="desc">Four evidence cards show 11 of 11 DepthWizard gates, 27 of 27 operator checks, more than 7200 seconds of packaged soak, and a 268-test VeilGraph regression.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020817"/><stop offset="1" stop-color="#071627"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2563eb"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+  </defs>
+  <style>
+    .edge { stroke-dasharray:85 540; animation:edge 5s linear infinite; }
+    .bar { animation:bar 3s ease-in-out infinite; transform-origin:left; }
+    .b2{animation-delay:-.6s}.b3{animation-delay:-1.2s}.b4{animation-delay:-1.8s}
+    @keyframes edge { to { stroke-dashoffset:-625; } }
+    @keyframes bar { 0%,100% { transform:scaleX(.88); opacity:.65; } 50% { transform:scaleX(1); opacity:1; } }
+    @media (prefers-reduced-motion: reduce) { .edge,.bar { animation:none; } }
+  </style>
+  <rect width="1200" height="260" rx="22" fill="url(#bg)"/>
+  <rect class="edge" x="1.5" y="1.5" width="1197" height="257" rx="21" fill="none" stroke="url(#line)" stroke-width="3"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="42" y="48" fill="#7dd3fc" font-size="13" font-weight="700" letter-spacing="3">PUBLIC QUALIFICATION SIGNAL</text>
+    <text x="1158" y="48" fill="#64748b" font-size="12" text-anchor="end">linked evidence remains authoritative</text>
+    <g transform="translate(38 75)">
+      <rect width="260" height="145" rx="16" fill="#081a32" stroke="#1d4ed8"/>
+      <text x="22" y="37" fill="#94a3b8" font-size="13" letter-spacing="2">DEPTHWIZARD GATES</text>
+      <text x="22" y="91" fill="#f8fafc" font-size="42" font-weight="760">11/11</text>
+      <rect x="22" y="112" width="216" height="7" rx="4" fill="#0f2949"/><rect class="bar b1" x="22" y="112" width="216" height="7" rx="4" fill="#3b82f6"/>
+    </g>
+    <g transform="translate(326 75)">
+      <rect width="260" height="145" rx="16" fill="#081a32" stroke="#0284c7"/>
+      <text x="22" y="37" fill="#94a3b8" font-size="13" letter-spacing="2">OPERATOR CHECKS</text>
+      <text x="22" y="91" fill="#f8fafc" font-size="42" font-weight="760">27/27</text>
+      <rect x="22" y="112" width="216" height="7" rx="4" fill="#0f2949"/><rect class="bar b2" x="22" y="112" width="216" height="7" rx="4" fill="#38bdf8"/>
+    </g>
+    <g transform="translate(614 75)">
+      <rect width="260" height="145" rx="16" fill="#081a32" stroke="#0d9488"/>
+      <text x="22" y="37" fill="#94a3b8" font-size="13" letter-spacing="2">PACKAGED SOAK</text>
+      <text x="22" y="91" fill="#f8fafc" font-size="42" font-weight="760">7,200+<tspan font-size="16" fill="#94a3b8"> s</tspan></text>
+      <rect x="22" y="112" width="216" height="7" rx="4" fill="#0f2949"/><rect class="bar b3" x="22" y="112" width="216" height="7" rx="4" fill="#2dd4bf"/>
+    </g>
+    <g transform="translate(902 75)">
+      <rect width="260" height="145" rx="16" fill="#081a32" stroke="#6366f1"/>
+      <text x="22" y="37" fill="#94a3b8" font-size="13" letter-spacing="2">VEILGRAPH REGRESSION</text>
+      <text x="22" y="91" fill="#f8fafc" font-size="42" font-weight="760">268<tspan font-size="16" fill="#94a3b8"> tests</tspan></text>
+      <rect x="22" y="112" width="216" height="7" rx="4" fill="#0f2949"/><rect class="bar b4" x="22" y="112" width="216" height="7" rx="4" fill="#818cf8"/>
+    </g>
+  </g>
+</svg>
