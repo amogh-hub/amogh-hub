@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Amogh's public engineering momentum</title>
+  <desc id="desc">Animated engineering activity signal with an audited September 2026 snapshot: 730 contributions in the last year, 158 September commits, five flagship repositories, and an evidence-first release practice.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020817"/>
+      <stop offset="0.55" stop-color="#071426"/>
+      <stop offset="1" stop-color="#061b2f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#1d4ed8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.33"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="chartClip">
+      <rect x="32" y="82" width="720" height="202" rx="14"/>
+    </clipPath>
+  </defs>
+  <style>
+    .label { font: 700 12px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 2.2px; fill: #7dd3fc; }
+    .title { font: 750 22px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #f8fafc; }
+    .number { font: 760 35px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #f8fafc; }
+    .meta { font: 500 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #94a3b8; }
+    .tiny { font: 650 11px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 1px; fill: #64748b; }
+    .grid { stroke: #1e3a5f; stroke-width: 1; opacity: .5; }
+    .bar { fill: url(#bar); transform-box: fill-box; transform-origin: center bottom; animation: rise 1.35s cubic-bezier(.2,.8,.2,1) both; }
+    .trace { fill: none; stroke: url(#line); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 920; animation: draw 2.8s ease-in-out both; }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .scan { animation: scan 5.5s linear infinite; }
+    @keyframes rise { from { transform: scaleY(.04); opacity: .2 } to { transform: scaleY(1); opacity: 1 } }
+    @keyframes draw { from { stroke-dashoffset: 920; opacity: .2 } to { stroke-dashoffset: 0; opacity: 1 } }
+    @keyframes pulse { 0%,100% { transform: scale(.72); opacity: .35 } 50% { transform: scale(1.25); opacity: .9 } }
+    @keyframes scan { from { transform: translateX(-150px) } to { transform: translateX(900px) } }
+    @media (prefers-reduced-motion: reduce) { .bar,.trace,.pulse,.scan { animation: none } }
+  </style>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="21" fill="none" stroke="#1e3a5f"/>
+  <circle cx="1060" cy="-10" r="250" fill="url(#glow)" opacity=".45"/>
+
+  <text x="32" y="34" class="label">PUBLIC ENGINEERING SIGNAL</text>
+  <text x="32" y="61" class="title">Momentum backed by visible work, not vanity counters.</text>
+  <text x="1008" y="35" class="tiny">13 SEP 2026 · SNAPSHOT</text>
+
+  <g clip-path="url(#chartClip)">
+    <rect x="32" y="82" width="720" height="202" rx="14" fill="#020617" fill-opacity=".58"/>
+    <path class="grid" d="M32 122H752M32 162H752M32 202H752M32 242H752M122 82V284M212 82V284M302 82V284M392 82V284M482 82V284M572 82V284M662 82V284"/>
+    <rect class="bar" style="animation-delay:.05s" x="54" y="245" width="26" height="23" rx="5"/>
+    <rect class="bar" style="animation-delay:.1s" x="92" y="230" width="26" height="38" rx="5"/>
+    <rect class="bar" style="animation-delay:.15s" x="130" y="238" width="26" height="30" rx="5"/>
+    <rect class="bar" style="animation-delay:.2s" x="168" y="212" width="26" height="56" rx="5"/>
+    <rect class="bar" style="animation-delay:.25s" x="206" y="220" width="26" height="48" rx="5"/>
+    <rect class="bar" style="animation-delay:.3s" x="244" y="194" width="26" height="74" rx="5"/>
+    <rect class="bar" style="animation-delay:.35s" x="282" y="202" width="26" height="66" rx="5"/>
+    <rect class="bar" style="animation-delay:.4s" x="320" y="176" width="26" height="92" rx="5"/>
+    <rect class="bar" style="animation-delay:.45s" x="358" y="188" width="26" height="80" rx="5"/>
+    <rect class="bar" style="animation-delay:.5s" x="396" y="148" width="26" height="120" rx="5"/>
+    <rect class="bar" style="animation-delay:.55s" x="434" y="166" width="26" height="102" rx="5"/>
+    <rect class="bar" style="animation-delay:.6s" x="472" y="132" width="26" height="136" rx="5"/>
+    <rect class="bar" style="animation-delay:.65s" x="510" y="151" width="26" height="117" rx="5"/>
+    <rect class="bar" style="animation-delay:.7s" x="548" y="116" width="26" height="152" rx="5"/>
+    <rect class="bar" style="animation-delay:.75s" x="586" y="139" width="26" height="129" rx="5"/>
+    <rect class="bar" style="animation-delay:.8s" x="624" y="106" width="26" height="162" rx="5"/>
+    <rect class="bar" style="animation-delay:.85s" x="662" y="122" width="26" height="146" rx="5"/>
+    <rect class="bar" style="animation-delay:.9s" x="700" y="92" width="26" height="176" rx="5"/>
+    <path class="trace" d="M66 228 L104 215 L142 221 L180 195 L218 202 L256 177 L294 184 L332 157 L370 169 L408 130 L446 147 L484 113 L522 132 L560 97 L598 119 L636 88 L674 103 L712 72"/>
+    <rect class="scan" x="-150" y="82" width="110" height="202" fill="#38bdf8" opacity=".05" transform="skewX(-16)"/>
+    <circle class="pulse" cx="712" cy="72" r="14" fill="#38bdf8" filter="url(#softGlow)"/>
+    <circle cx="712" cy="72" r="5" fill="#e0f2fe"/>
+  </g>
+
+  <text x="48" y="305" class="tiny">IDEA</text>
+  <text x="198" y="305" class="tiny">ARCHITECT</text>
+  <text x="356" y="305" class="tiny">IMPLEMENT</text>
+  <text x="525" y="305" class="tiny">VERIFY</text>
+  <text x="665" y="305" class="tiny">SHIP</text>
+
+  <g transform="translate(780 82)">
+    <rect width="184" height="88" rx="14" fill="#0b1b31" stroke="#1e3a5f"/>
+    <text x="18" y="26" class="label">CONTRIBUTIONS</text>
+    <text x="18" y="66" class="number">730</text>
+    <circle class="pulse" cx="156" cy="58" r="8" fill="#2dd4bf"/>
+  </g>
+  <g transform="translate(984 82)">
+    <rect width="184" height="88" rx="14" fill="#0b1b31" stroke="#1e3a5f"/>
+    <text x="18" y="26" class="label">SEP COMMITS</text>
+    <text x="18" y="66" class="number">158</text>
+    <path d="M142 62l9 9 18-23" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(780 188)">
+    <rect width="184" height="88" rx="14" fill="#0b1b31" stroke="#1e3a5f"/>
+    <text x="18" y="26" class="label">FLAGSHIP PINS</text>
+    <text x="18" y="66" class="number">05</text>
+    <g fill="#2563eb"><circle cx="129" cy="58" r="5"/><circle cx="143" cy="58" r="5"/><circle cx="157" cy="58" r="5"/></g>
+  </g>
+  <g transform="translate(984 188)">
+    <rect width="184" height="88" rx="14" fill="#0b1b31" stroke="#1e3a5f"/>
+    <text x="18" y="26" class="label">RELEASE MODE</text>
+    <text x="18" y="58" class="title" fill="#2dd4bf">PROOF FIRST</text>
+    <text x="18" y="76" class="meta">fail closed · auditable</text>
+  </g>
+</svg>

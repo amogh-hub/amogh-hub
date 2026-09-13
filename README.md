@@ -124,19 +124,16 @@ The numbers above are dated evidence, not decorative counters. Linked repositori
 ## Live public signal
 
 <p align="center">
-  <a href="https://github.com/amogh-hub">
-    <img width="49%" alt="Amogh's GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=amogh-hub&show_icons=true&hide_border=true&bg_color=020817&title_color=7dd3fc&text_color=cbd5e1&icon_color=2dd4bf&include_all_commits=true">
-  </a>
-  <a href="https://github.com/amogh-hub">
-    <img width="49%" alt="Amogh's GitHub contribution streak" src="https://streak-stats.demolab.com?user=amogh-hub&hide_border=true&background=020817&ring=38BDF8&fire=2DD4BF&currStreakLabel=7DD3FC&sideLabels=CBD5E1&dates=64748B&stroke=1E3A5F">
-  </a>
+  <img width="100%" alt="Animated public engineering momentum" src="assets/live-signal.svg">
 </p>
 
 <p align="center">
-  <img width="100%" alt="Amogh's public contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=amogh-hub&bg_color=020817&color=cbd5e1&line=38bdf8&point=2dd4bf&area=true&area_color=1d4ed8&hide_border=true&custom_title=Public%20Engineering%20Activity">
+  <a href="https://github.com/amogh-hub">
+    <img width="62%" alt="Amogh's live GitHub contribution streak" src="https://streak-stats.demolab.com?user=amogh-hub&hide_border=true&background=020817&ring=38BDF8&fire=2DD4BF&currStreakLabel=7DD3FC&sideLabels=CBD5E1&dates=64748B&stroke=1E3A5F">
+  </a>
 </p>
 
-<sub>Live cards are informational mirrors. Repository history and linked evidence are the source of truth.</sub>
+<sub>The animated panel is a dated, native-profile snapshot; the streak card updates independently. Repository history and linked evidence remain the source of truth.</sub>
 
 ## Current direction
 
