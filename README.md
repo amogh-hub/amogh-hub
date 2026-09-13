@@ -128,12 +128,12 @@ The numbers above are dated evidence, not decorative counters. Linked repositori
 </p>
 
 <p align="center">
-  <a href="https://github.com/amogh-hub">
-    <img width="62%" alt="Amogh's live GitHub contribution streak" src="https://streak-stats.demolab.com?user=amogh-hub&hide_border=true&background=020817&ring=38BDF8&fire=2DD4BF&currStreakLabel=7DD3FC&sideLabels=CBD5E1&dates=64748B&stroke=1E3A5F">
+  <a href="https://github.com/amogh-hub?tab=overview">
+    <img alt="Inspect GitHub's native contribution record" src="https://img.shields.io/badge/INSPECT-GITHUB'S_NATIVE_CONTRIBUTION_RECORD-0f766e?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </p>
 
-<sub>The animated panel is a dated, native-profile snapshot; the streak card updates independently. Repository history and linked evidence remain the source of truth.</sub>
+<sub>The animated panel records verified lower bounds at publication. GitHub's native graph, repository history and linked evidence remain the source of truth.</sub>
 
 ## Current direction
 
